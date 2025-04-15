@@ -11086,3 +11086,18 @@ html {
 p { 
   font-size: 16px;
 }
+.timeline-icon {
+  position: relative;
+}
+
+.timeline-icon::before {
+  content: "";
+  position: absolute;
+  top: -50px; /* sobe um pouco para ligar com o ícone anterior */
+  bottom: -50px; /* desce para o próximo */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  background-color: rgba(255, 255, 255, 0.5); /* linha branca com opacidade */
+  z-index: 0;
+}
