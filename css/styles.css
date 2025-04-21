@@ -529,7 +529,7 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -12949,4 +12949,10 @@ p {
 
 #passions {
   padding-bottom: 0;
+}
+
+#poeta {
+  color: rgba(73, 52, 113, 0.7);
+  font-weight: bold;
+  font-size: 17px;
 }
